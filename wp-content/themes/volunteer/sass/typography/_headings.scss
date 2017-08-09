@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	color: #fff;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.slant {
+	text-transform: uppercase;
+	
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+}
+
+h3 {
+	margin: 0;
+}

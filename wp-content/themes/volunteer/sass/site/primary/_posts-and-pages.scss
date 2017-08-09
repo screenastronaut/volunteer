@@ -1,0 +1,129 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+header {
+	padding-top: 30px;
+}
+
+footer {
+	color: #fff;
+	height: 50px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.acts-logo {
+	display: block;
+	text-align: right;
+}
+
+.cta-button {
+	background: url(images/button_bg-01.png) repeat;
+	border-radius: 10px;
+	color: $color__red;
+	font-size: 26px;
+	font-weight: 600;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover {
+		color: #000;
+	}
+
+	// &:slanted {
+	// 	position: relative;
+	// }
+
+	// .slanted:before, .slanted:after {
+	// 	content: "";
+	// 	background: blue;
+	// 	height: 40px;
+	// 	transform: skewY(-15deg);
+	// 	position: absolute;
+	// 	left: 0;
+	// 	right: 0;
+	// 	z-index: -1;
+	// }
+
+	.slanted:before{    
+		top: -20px;    
+	}
+
+	.slanted:after {
+		bottom: -20px;
+	}
+}
+
+.home {
+	.site-main {
+		margin: 50px 0;
+	}
+
+	h1 {
+		margin-bottom: 30px;
+	}
+
+	.quiz {
+		margin-top: 50px;
+	}
+}
+
+.dt-page {
+	margin-top: 50px;
+
+	a {
+		text-decoration: none;
+	}
+
+	.dream-team {
+		background: url('images/button_bg-01.png') repeat;
+		border-radius: 50%;
+		color: $color__red;
+		height: 150px;
+		font-weight: 500;
+		line-height: 150px;
+		overflow: hidden;
+		text-align: center;
+		text-transform: uppercase;
+		width: 150px;
+
+		h3 {
+			-moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+			-webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+			-o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+			-ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+			transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+		}
+	}
+
+	.desc {
+		display: none;
+	}
+}
