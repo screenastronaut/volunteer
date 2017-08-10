@@ -24,12 +24,12 @@ get_header(); ?>
 			</div>
 			<div class="about-volunteering col-lg-offset-2 col-lg-6">
 				<h1 class="slant">Want to know more about volunteering at acts church?</h1>
-				<a href="about-dream-teams" class="cta-button slanted">Yes! Let's go!</a>
+				<a href="about-dream-teams"><button class="cta-button" id="letsgo" title="test"></button></a>
 			</div>
 			<div class="clear"></div>
 			<div class="quiz col-lg-offset-2 col-lg-6">
 				<h1 class="slant">Answer 9 questions & we'll tell you which ministry suits you best!</h1>
-				<a href="quiz" class="cta-button slanted">Take the quiz</a>
+				<a href="quiz"><button class="cta-button" id="takequiz" title="test"></button></a>
 			</div>
 		</div>
 

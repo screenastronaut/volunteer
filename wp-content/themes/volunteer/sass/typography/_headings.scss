@@ -8,19 +8,15 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	color: #fff;
 	font-size: 26px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .slant {
 	text-transform: uppercase;
-	
-    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-}
 
-h3 {
-	margin: 0;
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
 }

@@ -1,0 +1,712 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ini",
+				"initiative_id"
+			],
+			[
+				"marker",
+				"markers_array"
+			],
+			[
+				"loca",
+				"location_markers"
+			],
+			[
+				"keywo",
+				"keyword_array"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"meta",
+				"meta_array"
+			],
+			[
+				"initi",
+				"initiative_name"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"goog",
+				"google_map"
+			],
+			[
+				"google",
+				"google_map"
+			],
+			[
+				"googl",
+				"google_map_image"
+			],
+			[
+				"tog",
+				"toggleid"
+			],
+			[
+				"websi",
+				"website_link"
+			],
+			[
+				"web",
+				"website_link"
+			],
+			[
+				"org",
+				"organisation_logo"
+			],
+			[
+				"or",
+				"organisation_logo"
+			],
+			[
+				"pos",
+				"pos:a\tposition:absolute"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"templ",
+				"template_location"
+			],
+			[
+				"two",
+				"two"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"master",
+				"masterplanMap"
+			],
+			[
+				"posi",
+				"positionTugu"
+			],
+			[
+				"dataset",
+				"datasetIndex"
+			],
+			[
+				"data",
+				"datasetIndex"
+			],
+			[
+				"bac",
+				"backgroundColor"
+			],
+			[
+				"myCh",
+				"myChart1"
+			],
+			[
+				"mypie",
+				"myPieChart1"
+			],
+			[
+				"myP",
+				"myPieChart1"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"carousel",
+				"carousel_shortcode"
+			],
+			[
+				"color",
+				"color__menu"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"cur",
+				"cur:p\tcursor:pointer"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"prop",
+				"propertyName"
+			],
+			[
+				"property",
+				"property_image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sassbeau",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/volunteer"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/footer.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/sass/site/_header-and-footer.scss",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/header.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/page-homepage.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/sass/site/_site.scss",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/config.rb",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/header/site-branding.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/index.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/inc/customizer.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/404.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/archive.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/comments.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/functions.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/inc/custom-header.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/inc/extras.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/inc/jetpack.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/inc/template-tags.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/layouts/content-sidebar.css",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/layouts/sidebar-content.css",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/page.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/readme.txt",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/rtl.css",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/sass/style.scss",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/search.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/searchform.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/sidebar.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/single.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/style.css",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/content-none.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/content-page.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/content-search.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/content.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/footer/footer-widgets.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/footer/site-info.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/header/header-image.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/navigation/navigation-top.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/page/content-front-page-panels.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/page/content-front-page.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/page/content-page.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-audio.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-excerpt.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-gallery.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-image.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-none.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content-video.php",
+		"/C/xampp/htdocs/plantronics/wp-content/themes/plantronics/template-parts/post/content.php",
+		"/C/xampp/htdocs/plantronics/wp-config.php",
+		"/C/xampp/htdocs/basic/wp-config.php",
+		"/C/xampp/htdocs/basic/wp-content/themes/basic/index.php",
+		"/C/xampp/htdocs/actschurch/.git/config",
+		"/C/xampp/htdocs/actschurch/.gitignore",
+		"/C/xampp/htdocs/mockup/homepage.html",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/page-homepage.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/header.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/variables-site/_colors.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/navigation/_menus.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/variables-site/_typography.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/typography/_headings.scss",
+		"/C/xampp/htdocs/actschurch/wp-config.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/site/_header.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/typography/_copy.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/functions.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/site/secondary/_widgets.scss",
+		"/C/xampp/htdocs/screenastronauts/wp-content/themes/basictheme/sass/navigation/_menus.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/site/_site.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/header/site-branding.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/config.rb",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/404.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/archive.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/comments.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/footer.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/inc/custom-header.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/inc/customizer.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/inc/extras.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/inc/jetpack.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/inc/template-tags.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/index.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/layouts/content-sidebar.css",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/layouts/sidebar-content.css",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/page.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/readme.txt",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/rtl.css",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sass/style.scss",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/search.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/searchform.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/sidebar.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/single.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/style.css",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/content-none.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/content-page.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/content-search.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/content.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/footer/footer-widgets.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/footer/site-info.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/header/header-image.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/navigation/navigation-top.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/page/content-front-page-panels.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/page/content-front-page.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/page/content-page.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-audio.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-excerpt.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-gallery.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-image.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-none.php",
+		"/C/xampp/htdocs/actschurch/wp-content/themes/actschurch/template-parts/post/content-video.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/js/main.js",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/functions.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/page-actnow.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/template-parts/page/content-initiative.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/footer.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/elements/_elements.scss",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/forms/_forms.scss",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/site/primary/_posts-and-pages.scss",
+		"/C/xampp/htdocs/map-generator/index.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/page.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/site/primary/_actnow.scss",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/site/_site.scss",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/site/primary/_asides.scss",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/sass/site/primary/_actnow.php",
+		"/C/xampp/htdocs/harihasanah/wp-content/themes/hasanah/header.php",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/js/main.js",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/functions.php",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/header.php",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/page-master.php",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/template-parts/page/master-google_map.php",
+		"/C/xampp/htdocs/tamantugu_v2/wp-content/themes/tamantugu/footer.php",
+		"/C/xampp/htdocs/screenastronauts/wp-content/themes/basictheme/config.rb"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\plantronics\\wp-content\\themes\\plantronics",
+			"C:\\xampp\\htdocs\\actschurch\\wp-content\\themes\\actschurch",
+			"<open folders>",
+			"",
+			"<open folders>",
+			"C:\\xampp\\htdocs\\actschurch\\wp-content\\themes\\actschurch",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"basic",
+			"8",
+			"http://localhost/actschurch",
+			"end",
+			"custom-header-widget",
+			"basic",
+			"button",
+			"markers_array",
+			"markers",
+			"$",
+			"\n$('.",
+			"$",
+			"\n$",
+			"$",
+			"jQuery",
+			"meta_array",
+			"metaquery",
+			"Sarawak",
+			"name",
+			"keywords",
+			"sort",
+			"init",
+			"initkeywords",
+			"btn-search",
+			"text-search",
+			"sort",
+			"keywords",
+			"_process",
+			"initiative_form",
+			"alert",
+			"initiative-search",
+			"form",
+			"theUniqueNameForYourJSObject",
+			"panacea",
+			"<br><br>",
+			"google_map",
+			"\"}]}]",
+			"\n\t\t\t\t\t\t",
+			"malaysia",
+			"location",
+			") = ",
+			"toggleclass",
+			"label",
+			"date",
+			"tel",
+			"\n\t\t\t",
+			"initiative",
+			"email",
+			"initiative_category",
+			"category",
+			"initiative_category",
+			"coord",
+			"malaysia",
+			"bermudaTriangle",
+			"triangleCoords",
+			"AIzaSyBOU2vHerXHzh04ntbV3KLnnAhIjatjBag",
+			"8",
+			"uluru",
+			"basic",
+			"20151215",
+			"\"></",
+			"utf8_unicode_520_ci",
+			"utf8mb4",
+			"utf8_unicode_520_ci",
+			"utf8mb4",
+			"CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;",
+			"ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;",
+			"Roboto",
+			"3",
+			"2",
+			"27px",
+			"30px",
+			"Merriweather",
+			"header-item ",
+			"3",
+			"9",
+			"/content",
+			"4",
+			"12",
+			"span",
+			"center",
+			"span",
+			"6",
+			"8",
+			"4",
+			"8",
+			"basic",
+			"<url>",
+			"the_post_navigation",
+			"on('",
+			" + 'px'",
+			".each",
+			" alt=\"",
+			"\"></div>",
+			"title",
+			"shape=\"circle\" ",
+			"coords",
+			", 14",
+			"\">",
+			"<area",
+			"area",
+			"10",
+			"tab",
+			"2",
+			"li",
+			"owl-carousel",
+			"ul",
+			"10",
+			"content",
+			"class=\"various\"",
+			"fancy",
+			"landmarks_",
+			"taman-botanikal-perdana",
+			"Taman Botanikal Perdana",
+			"Bank Negara",
+			"landmarks_bank-negara",
+			"<span class=\"landmarks\">",
+			"</b>",
+			"<b>",
+			"<div class=\"col-lg-12\"><b>Nearby Landmarks:</b></div>",
+			"h5",
+			"<span class=\"col-lg-9\">",
+			"1",
+			"get_template_directory_uri",
+			"educational",
+			"sliderimage",
+			"connect-arrow",
+			"11"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"plantronics",
+			"actschurch",
+			"screenastronaut",
+			"actschurch"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "volunteer.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"funct",
+				"wp-content\\themes\\actschurch\\functions.php"
+			],
+			[
+				"footer",
+				"wp-content\\themes\\hasanah\\footer.php"
+			],
+			[
+				"function",
+				"wp-content\\themes\\hasanah\\functions.php"
+			],
+			[
+				"fun",
+				"wp-content\\themes\\hasanah\\functions.php"
+			],
+			[
+				"func",
+				"wp-content\\themes\\hasanah\\functions.php"
+			],
+			[
+				"header",
+				"wp-content\\themes\\basictheme\\header.php"
+			],
+			[
+				"_g",
+				"wp-content\\themes\\basictheme\\sass\\grid\\_grid.scss"
+			],
+			[
+				"_f",
+				"wp-content\\themes\\tamantugu\\sass\\forms\\_fields.scss"
+			],
+			[
+				"main",
+				"wp-content\\themes\\tamantugu\\js\\main.js"
+			],
+			[
+				"stef",
+				"wp-content\\themes\\tamantugu\\sass\\_stef.scss"
+			],
+			[
+				"_stef",
+				"wp-content\\themes\\tamantugu\\sass\\_stef.scss"
+			],
+			[
+				"latestupda",
+				"wp-content\\themes\\tamantugu\\template-parts\\homepage\\section-latestupdates.php"
+			],
+			[
+				"latestup",
+				"wp-content\\themes\\tamantugu\\page-latestupdate.php"
+			],
+			[
+				"posts",
+				"wp-content\\themes\\tamantugu\\sass\\site\\primary\\_posts-and-pages.scss"
+			],
+			[
+				"page-conn",
+				"wp-content\\themes\\tamantugu\\page-connectors.php"
+			],
+			[
+				"functions",
+				"wp-content\\themes\\tamantugu\\functions.php"
+			],
+			[
+				"foot",
+				"wp-content\\themes\\tamantugu\\footer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\tamantugu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

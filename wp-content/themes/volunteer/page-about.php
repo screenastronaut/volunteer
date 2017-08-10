@@ -28,19 +28,22 @@ get_header(); ?>
 		$i++;
 		?>
 
-		<div class="col-lg-2 col-md-4 col sm-6 col-xs-6">
+		<div class="circle col-lg-2 col-md-4 col sm-6 col-xs-6">
 			<a data-fancybox data-src="#<?=$i?>" href="javascript:;">
 				<div class="dream-team">
-					<h3><?php echo get_field('name'); ?></h3>
+					<span><?php echo get_field('name'); ?></span>
 				</div>
 			</a>
 			<div class="desc" id="<?=$i?>">
 				<h2><?php echo get_field('name'); ?></h2>
 				<?php echo get_field('about'); ?>
+				<a href="../sign-up" class="signuplink"><h2 class="slant">Sign Up! ></h2></a>
 			</div>
 		</div>
 
 	<?php endwhile; endif; ?>
+
+	<a href="../sign-up" class="signuplink"><h2 class="slant">Sign Up! ></h2></a>
 
 </main><!-- #main -->
 </div><!-- #primary -->

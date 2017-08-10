@@ -44,40 +44,26 @@ footer {
 }
 
 .cta-button {
-	background: url(images/button_bg-01.png) repeat;
-	border-radius: 10px;
-	color: $color__red;
-	font-size: 26px;
-	font-weight: 600;
-	padding: 10px 20px;
-	text-decoration: none;
-	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	box-shadow: none !important;
+	height: 100px;
+	width: 280px;
 
-	&:hover {
-		color: #000;
+	&#letsgo {
+		background: url(images/yesletsgo_normal.png) no-repeat;
+
+		&:hover {
+			background: url(images/yesletsgo_hover.png) no-repeat;
+		}
 	}
 
-	// &:slanted {
-	// 	position: relative;
-	// }
+	&#takequiz {
+		background: url(images/takethequiz_normal.png) no-repeat;
 
-	// .slanted:before, .slanted:after {
-	// 	content: "";
-	// 	background: blue;
-	// 	height: 40px;
-	// 	transform: skewY(-15deg);
-	// 	position: absolute;
-	// 	left: 0;
-	// 	right: 0;
-	// 	z-index: -1;
-	// }
-
-	.slanted:before{    
-		top: -20px;    
-	}
-
-	.slanted:after {
-		bottom: -20px;
+		&:hover {
+			background: url(images/takethequiz_hover.png) no-repeat;
+		}
 	}
 }
 
@@ -87,11 +73,11 @@ footer {
 	}
 
 	h1 {
-		margin-bottom: 30px;
+		text-align: center;
 	}
 
 	.quiz {
-		margin-top: 50px;
+		// margin-top: 50px;
 	}
 }
 
@@ -100,6 +86,10 @@ footer {
 
 	a {
 		text-decoration: none;
+	}
+
+	.circle {
+		margin-bottom: 30px;
 	}
 
 	.dream-team {
@@ -114,16 +104,44 @@ footer {
 		text-transform: uppercase;
 		width: 150px;
 
-		h3 {
+		&:hover {
+			background: $color__orange;
+			color: #fff;
+		}
+
+		span {
 			-moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
 			-webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
 			-o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
 			-ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
 			transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+
+			display: inline-block;
+			font-size: 16px;
+			vertical-align: middle;
 		}
 	}
 
 	.desc {
 		display: none;
 	}
+}
+
+.signuplink {
+	color: #fff !important;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+
+	&:hover {
+		color: $color__yellow !important;
+	}
+}
+
+.fancybox-slide>* {
+	background: $color__green !important;
+	border: 10px solid $color__yellow !important;
+	color: #fff;
+	max-width: 800px;
+	overflow: visible !important;
 }

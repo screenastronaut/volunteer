@@ -1,5 +1,11 @@
-p {
+p, li {
+	font-size: 18px;
+	font-weight: 400;
 	margin-bottom: 1.5em;
+}
+
+li {
+	margin: 0;
 }
 
 dfn, cite, em, i {

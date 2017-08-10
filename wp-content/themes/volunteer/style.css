@@ -330,45 +330,47 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: #fff;
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* line 14, sass/typography/_headings.scss */
 .slant {
   text-transform: uppercase;
-  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
-}
-
-/* line 24, sass/typography/_headings.scss */
-h3 {
-  margin: 0;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -7deg);
 }
 
 /* line 1, sass/typography/_copy.scss */
-p {
+p, li {
+  font-size: 18px;
+  font-weight: 400;
   margin-bottom: 1.5em;
 }
 
-/* line 5, sass/typography/_copy.scss */
+/* line 7, sass/typography/_copy.scss */
+li {
+  margin: 0;
+}
+
+/* line 11, sass/typography/_copy.scss */
 dfn, cite, em, i {
   font-style: italic;
 }
 
-/* line 9, sass/typography/_copy.scss */
+/* line 15, sass/typography/_copy.scss */
 blockquote {
   margin: 0 1.5em;
 }
 
-/* line 13, sass/typography/_copy.scss */
+/* line 19, sass/typography/_copy.scss */
 address {
   margin: 0 0 1.5em;
 }
 
-/* line 17, sass/typography/_copy.scss */
+/* line 23, sass/typography/_copy.scss */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -381,26 +383,26 @@ pre {
   padding: 1.6em;
 }
 
-/* line 28, sass/typography/_copy.scss */
+/* line 34, sass/typography/_copy.scss */
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem;
 }
 
-/* line 33, sass/typography/_copy.scss */
+/* line 39, sass/typography/_copy.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-/* line 38, sass/typography/_copy.scss */
+/* line 44, sass/typography/_copy.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 43, sass/typography/_copy.scss */
+/* line 49, sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
@@ -503,7 +505,6 @@ input[type="submit"] {
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
@@ -859,50 +860,51 @@ footer {
 
 /* line 46, sass/site/primary/_posts-and-pages.scss */
 .cta-button {
-  background: url(images/button_bg-01.png) repeat;
-  border-radius: 10px;
-  color: #FC5558;
-  font-size: 26px;
-  font-weight: 600;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  height: 100px;
+  width: 280px;
+}
+/* line 53, sass/site/primary/_posts-and-pages.scss */
+.cta-button#letsgo {
+  background: url(images/yesletsgo_normal.png) no-repeat;
 }
 /* line 56, sass/site/primary/_posts-and-pages.scss */
-.cta-button:hover {
-  color: #000;
+.cta-button#letsgo:hover {
+  background: url(images/yesletsgo_hover.png) no-repeat;
 }
-/* line 75, sass/site/primary/_posts-and-pages.scss */
-.cta-button .slanted:before {
-  top: -20px;
+/* line 61, sass/site/primary/_posts-and-pages.scss */
+.cta-button#takequiz {
+  background: url(images/takethequiz_normal.png) no-repeat;
 }
-/* line 79, sass/site/primary/_posts-and-pages.scss */
-.cta-button .slanted:after {
-  bottom: -20px;
+/* line 64, sass/site/primary/_posts-and-pages.scss */
+.cta-button#takequiz:hover {
+  background: url(images/takethequiz_hover.png) no-repeat;
 }
 
-/* line 85, sass/site/primary/_posts-and-pages.scss */
+/* line 71, sass/site/primary/_posts-and-pages.scss */
 .home .site-main {
   margin: 50px 0;
 }
-/* line 89, sass/site/primary/_posts-and-pages.scss */
+/* line 75, sass/site/primary/_posts-and-pages.scss */
 .home h1 {
-  margin-bottom: 30px;
-}
-/* line 93, sass/site/primary/_posts-and-pages.scss */
-.home .quiz {
-  margin-top: 50px;
+  text-align: center;
 }
 
-/* line 98, sass/site/primary/_posts-and-pages.scss */
+/* line 84, sass/site/primary/_posts-and-pages.scss */
 .dt-page {
   margin-top: 50px;
 }
-/* line 101, sass/site/primary/_posts-and-pages.scss */
+/* line 87, sass/site/primary/_posts-and-pages.scss */
 .dt-page a {
   text-decoration: none;
 }
-/* line 105, sass/site/primary/_posts-and-pages.scss */
+/* line 91, sass/site/primary/_posts-and-pages.scss */
+.dt-page .circle {
+  margin-bottom: 30px;
+}
+/* line 95, sass/site/primary/_posts-and-pages.scss */
 .dt-page .dream-team {
   background: url("images/button_bg-01.png") repeat;
   border-radius: 50%;
@@ -915,17 +917,46 @@ footer {
   text-transform: uppercase;
   width: 150px;
 }
-/* line 117, sass/site/primary/_posts-and-pages.scss */
-.dt-page .dream-team h3 {
+/* line 107, sass/site/primary/_posts-and-pages.scss */
+.dt-page .dream-team:hover {
+  background: #fbb03b;
+  color: #fff;
+}
+/* line 112, sass/site/primary/_posts-and-pages.scss */
+.dt-page .dream-team span {
   -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
   -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
   -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
   -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
   transform: scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, -10deg);
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
 }
-/* line 126, sass/site/primary/_posts-and-pages.scss */
+/* line 125, sass/site/primary/_posts-and-pages.scss */
 .dt-page .desc {
   display: none;
+}
+
+/* line 130, sass/site/primary/_posts-and-pages.scss */
+.signuplink {
+  color: #fff !important;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 136, sass/site/primary/_posts-and-pages.scss */
+.signuplink:hover {
+  color: #F1EA57 !important;
+}
+
+/* line 141, sass/site/primary/_posts-and-pages.scss */
+.fancybox-slide > * {
+  background: #2DA59C !important;
+  border: 10px solid #F1EA57 !important;
+  color: #fff;
+  max-width: 800px;
+  overflow: visible !important;
 }
 
 /*--------------------------------------------------------------
