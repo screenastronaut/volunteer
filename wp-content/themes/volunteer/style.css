@@ -540,10 +540,11 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 1px solid #ccc;
   border-radius: 3px;
 }
-/* line 11, sass/forms/_fields.scss */
+/* line 13, sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -553,7 +554,7 @@ textarea:focus {
   color: #111;
 }
 
-/* line 16, sass/forms/_fields.scss */
+/* line 18, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -562,9 +563,21 @@ input[type="search"] {
   padding: 3px;
 }
 
-/* line 24, sass/forms/_fields.scss */
+/* line 26, sass/forms/_fields.scss */
 textarea {
   padding-left: 3px;
+  width: 100%;
+}
+
+/* line 31, sass/forms/_fields.scss */
+label {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 300;
+  width: 100px;
+}
+/* line 37, sass/forms/_fields.scss */
+label.long {
   width: 100%;
 }
 
@@ -957,6 +970,39 @@ footer {
   color: #fff;
   max-width: 800px;
   overflow: visible !important;
+}
+
+/* line 149, sass/site/primary/_posts-and-pages.scss */
+div.wpcf7 {
+  background: #fff;
+  border-radius: 15px;
+  overflow: auto;
+  padding: 30px;
+}
+/* line 155, sass/site/primary/_posts-and-pages.scss */
+div.wpcf7 span.wpcf7-list-item {
+  display: block;
+}
+/* line 158, sass/site/primary/_posts-and-pages.scss */
+div.wpcf7 span.wpcf7-list-item label {
+  width: 100%;
+}
+/* line 163, sass/site/primary/_posts-and-pages.scss */
+div.wpcf7 #formSubmit .wpcf7-submit {
+  background: url(images/submitapplication_normal.png) no-repeat;
+  background-size: contain;
+  border: none;
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 250px;
+}
+/* line 174, sass/site/primary/_posts-and-pages.scss */
+div.wpcf7 #formSubmit .wpcf7-submit:hover {
+  background: url(images/submitapplication_hover.png) no-repeat;
+  background-size: contain;
 }
 
 /*--------------------------------------------------------------
